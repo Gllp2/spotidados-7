@@ -1,0 +1,25 @@
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-avatar {
+    width: 120px;
+    height: 120px;
+    background: #eee;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+.login-button {
+    padding: 12px 32px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background: #1db954;
+    color: #fff;
+    cursor: pointer;
+}
